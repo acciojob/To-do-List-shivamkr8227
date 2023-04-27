@@ -11,3 +11,6 @@ sub.addEventListener("click", function(){
 		nti.value="";
 	}
 });
+cy.get('button').click();
+cy.wait(1000);
+cy.get('li').contains('Work');

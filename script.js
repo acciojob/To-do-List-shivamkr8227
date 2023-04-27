@@ -7,7 +7,7 @@ sub.addEventListener("click", function(){
 	if(ntivalue!=""){
 		let ne=document.createElement("li");
 		ne.textContent=ntivalue;
-		tdl.appendChild=ne;
+		tdl.appendChild(ne);
 		nti.value="";
 	}
 });
